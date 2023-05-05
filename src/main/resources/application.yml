@@ -9,7 +9,7 @@ spring:
       properties:
         json:
           trusted:
-            packages: *
+            packages: "*"
     #      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     producer:
       bootstrap-servers: localhost:9092
